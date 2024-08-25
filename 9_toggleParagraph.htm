@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toggle Visiblility</title>
+    <script>
+      function toggleParagraph() {
+        var paragraph = document.getElementById("toggleParagraph");
+        if (paragraph.style.display === "none") {
+          paragraph.style.display = "block";
+        } else {
+          paragraph.style.display = "none";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1 style="text-align: center">Toggle Paragraph Visibility</h1>
+    <p id="toggleParagraph" style="display: block">
+      This is Paragraph that will bet toggled. Click on the button below to hide
+      or show the paragraph
+    </p>
+    <button
+      style="
+        display: block;
+        margin: 20px auto;
+        background-color: green;
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+      "
+      onClick="toggleParagraph()"
+    >
+      Toggle Paragraph
+    </button>
+  </body>
+</html>

@@ -4,9 +4,16 @@
     <title>Registration Form</title>
   </head>
 
-  <body style="display: flex; justify-content: center; align-items: center">
-    <div style="border: 1px solid black; padding: 40px; margin: 20px">
-      <h1>Registration Form</h1>
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    "
+  >
+    <h1>Registration Form</h1>
+    <div style="border: 1px solid black; padding: 40px; margin: 5px">
       <form action="#" method="post">
         <label for="firstName">First Name</label><br />
         <input type="text" name="firstName" required /><br /><br />
@@ -34,6 +41,7 @@
           name="phone"
           id="phone"
           pattern="[0-9]{10}"
+          placeholder="10 digit number"
         /><br /><br />
 
         <label for="gender">Gender</label><br />
