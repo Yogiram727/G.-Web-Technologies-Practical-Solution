@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+
+  <body style="display: flex; justify-content: center; align-items: center">
+    <div style="border: 1px solid black; padding: 40px; margin: 20px">
+      <h1>Registration Form</h1>
+      <form action="#" method="post">
+        <label for="firstName">First Name</label><br />
+        <input type="text" name="firstName" required /><br /><br />
+
+        <label for="lastName">Last Name</label><br />
+        <input type="text" name="lastName" required /><br /><br />
+
+        <label for="emailId">Email</label><br />
+        <input type="email" name="emailId" required /><br /><br />
+
+        <label for="password">Password</label><br />
+        <input type="password" name="password" required /><br /><br />
+
+        <label for="confirm-password">Confirm Password</label><br />
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+        /><br /><br />
+
+        <label for="phone">Phone Number</label><br />
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          pattern="[0-9]{10}"
+        /><br /><br />
+
+        <label for="gender">Gender</label><br />
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="male">Male</label><br />
+
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="female">Female</label><br />
+
+        <input type="radio" id="other" name="gender" value="Other" />
+        <label for="other">Other</label><br /><br />
+
+        <label for="dob">Date of Birth</label><br />
+        <input type="date" name="dob" required /><br /><br />
+
+        <label for="address">Address</label><br />
+        <textarea name="address" id="address" name="address" required></textarea
+        ><br /><br />
+
+        <input type="checkbox" name="terms" required />
+        <label for="terms">I Agree to Terms and Conditions</label><br /><br />
+
+        <input
+          type="submit"
+          value="Register"
+          style="
+            background-color: green;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+          "
+        />
+      </form>
+    </div>
+  </body>
+</html>
