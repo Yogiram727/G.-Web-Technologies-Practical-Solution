@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>XMLHttpRequest</title>
-
+    <title>Document</title>
     <script>
       function loadDoc() {
         var xhttp = new XMLHttpRequest();
@@ -11,13 +10,13 @@
             document.getElementById("demo").innerHTML = this.responseText;
           }
         };
-        xhttp.open("POST", "demo.asp", true);
+        xhttp.open("POST", "demo_post.asp", true);
         xhttp.send();
       }
     </script>
   </head>
   <body>
     <p id="demo"></p>
-    <button onClick="loadDoc()">Click Me</button>
+    <button onclick="loadDoc()">Request Data</button>
   </body>
 </html>

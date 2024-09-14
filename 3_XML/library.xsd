@@ -1,25 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xs:xsi=noNamespaceSchemaLocation="library.xsd">
-    <book>
-        <title>Head First HTML</title>
-        <author>Robert Paul</author>
-        <year>1999</year>
-        <isbn>0009494</isbn>
-    </book>
-    <book>
-        <title>Complete Java</title>
-        <author>James Gossling</author>
-        <year>2001</year>
-        <isbn>23432432</isbn>
-    </book>
-</library>
-
-
-
-
-
-<?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="library">
         <xs:complexType>
@@ -38,5 +17,3 @@
         </xs:complexType>
     </xs:element>
 </xs:schema>
-
-

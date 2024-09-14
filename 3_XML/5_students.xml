@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <rollno>101</rollno>
+    <name>John Doe</name>
+    <marks>
+      <subject1>85</subject1>
+      <subject2>90</subject2>
+      <subject3>78</subject3>
+      <subject4>88</subject4>
+      <subject5>92</subject5>
+    </marks>
+  </student>
+  
+  <student>
+    <rollno>102</rollno>
+    <name>Jane Smith</name>
+    <marks>
+      <subject1>79</subject1>
+      <subject2>85</subject2>
+      <subject3>88</subject3>
+      <subject4>90</subject4>
+      <subject5>84</subject5>
+    </marks>
+  </student>
+  
+  <student>
+    <rollno>103</rollno>
+    <name>Emily Davis</name>
+    <marks>
+      <subject1>91</subject1>
+      <subject2>89</subject2>
+      <subject3>94</subject3>
+      <subject4>87</subject4>
+      <subject5>90</subject5>
+    </marks>
+  </student>
+  
+  <student>
+    <rollno>104</rollno>
+    <name>Michael Brown</name>
+    <marks>
+      <subject1>82</subject1>
+      <subject2>79</subject2>
+      <subject3>85</subject3>
+      <subject4>80</subject4>
+      <subject5>88</subject5>
+    </marks>
+  </student>
+  
+  <student>
+    <rollno>105</rollno>
+    <name>Alice Johnson</name>
+    <marks>
+      <subject1>87</subject1>
+      <subject2>92</subject2>
+      <subject3>89</subject3>
+      <subject4>84</subject4>
+      <subject5>91</subject5>
+    </marks>
+  </student>
+</students>

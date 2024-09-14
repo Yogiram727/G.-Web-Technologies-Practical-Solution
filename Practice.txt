@@ -1,0 +1,25 @@
+<%
+    dim i
+    For i=1 to 5
+    Response.write("Hello")
+    Next
+%>
+
+
+<%
+    dim i
+    i = 1
+    Do While i <= 5
+        Response.write("Hello")
+        i = i + 1
+    Loop
+%>
+
+<%
+    dim i
+    i = 1
+    Do Until i > 5
+        Response.write("Hello")
+        i = i + 1
+    Loop
+%>
